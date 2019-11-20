@@ -12,6 +12,14 @@ h1 {
   }
   body {
     margin: 2em;
+    background-color:#00CED1;
+  }
+  .root {
+    background-color:#F5F5DC;
+    border-radius: 20px;
+    padding-top:2px;
+    padding-left: 3px;
+    padding-bottom: 6px;
   }
   body, input[type="text"], button {
     color: #333;

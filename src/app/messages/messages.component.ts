@@ -13,4 +13,14 @@ export class MessagesComponent implements OnInit {
   ngOnInit() {
   }
 
+  GetNumberOfMessages(): number {
+    return this.messageService.messages.length;
+  }
+  ClearMessages(): void {
+    this.messageService.clear();
+  }
+  GetMessages(): string[] {
+    return this.messageService.messages;
+  }
+
 }
